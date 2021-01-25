@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>SET EVENT COUNTDOWN TIMER</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>CountDown Timer</h1>
+            <div class="date-container">
+                <span id="dayOfWeek"></span>
+                <span id="month"></span>
+                <span id="day"></span>
+                <span id="year"></span>
+            </div>
+            <h1 class="sm-text">Count Down To</h1>
+            <p class="md-text hide" id="countdown-title">New Year</p>
+            <div class="">
+                <div class="" id="form">
+                    <form action="">
+                        <input type="text" name="title" id="title" placeholder="title...">
+                        <input type="date" name="date" id="date" required>
+                        <button type="submit">Set</button>
+                    </form>
+                </div>
+                <div class="time-container" id="twelve-hour-time">
+                    <div class="time-element">
+                        <p class="lg-text days" id="days">00</p>
+                        <span>Days</span>
+                    </div>
+                    <div class="time-element">
+                        <p class="lg-text hours" id="hours">00</p>
+                        <span>Hours</span>
+                    </div>
+                    <div class="time-element">
+                        <p class="lg-text minutes" id="minutes">00</p>
+                        <span>Minutes</span>
+                    </div>
+                    <div class="time-element">
+                        <p class="lg-text seconds" id="seconds">00</p>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
